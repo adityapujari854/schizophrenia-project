@@ -1,0 +1,45 @@
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated project content
+/schizo_project/data/
+/schizo_project/results/
+/schizo_project/backups/
+/schizo_project/uploads/
+/schizo_project/models/
+/schizo_project/nilearn_cache/
+/schizo_project/plots/

@@ -1,0 +1,4 @@
+## Check Fusion Features Mapped 
+
+Get-Content .\results\fusion_top_permutation_importance.csv -TotalCount 40
+Import-Csv .\results\fusion_feature_component_mapping.csv | Select-Object -First 40 | Format-Table -AutoSize
